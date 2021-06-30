@@ -3,7 +3,7 @@ import React from "react";
 const Profile = ({ avatar, name, tag, location, stats }) => {
   return (
     <div className="profile">
-      <div>
+      <div className="description">
         <img src={avatar} alt={name} width="100" />
         <p className="name">{name}</p>
         <p className="tag">{tag}</p>
