@@ -1,0 +1,9 @@
+.profile {
+    background-color: wheat;
+    width: 300px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
