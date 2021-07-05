@@ -1,13 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import defaultAvatar from "./defaultAvatar.png";
+import React from 'react';
+import PropTypes from 'prop-types';
+import defaultAvatar from '../defaultAvatar.png';
+import styles from './FriendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <>
-      <span className="status">{isOnline}</span>
-      <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
+      <span className={styles.status} isonline={isOnline.toString()}></span>
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+      <p className={styles.name}>{name}</p>
     </>
   );
 };
