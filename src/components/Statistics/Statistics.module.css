@@ -3,27 +3,28 @@
   text-align: center;
   margin: 50px;
   box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 2%;
 }
 
 .title {
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px;
 }
 
 .statList {
-    display: flex;
-    justify-content: stretch;
-    width: 100%;
+  display: flex;
+  justify-content: stretch;
+  width: 100%;
 }
 .statList .item {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    padding: 10px;
-    background-color: rgb(204, 180, 180);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: rgb(204, 180, 180);
 }
 
 .percentage {
-    margin-top: 5px;
+  margin-top: 5px;
 }
